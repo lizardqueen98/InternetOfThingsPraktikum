@@ -1,0 +1,32 @@
+{
+  "terminal.integrated.shell.windows": "cmd.exe",
+  
+  "terminal.integrated.env.windows": {
+    "IDF_PYTHON_ENV_PATH" : "C:/Users/NEDZAD/esp/tools/.espressif/tools/idf-python/3.8.7/Scripts"
+  },
+  "terminal.integrated.env.osx": {
+    "IDF_PYTHON_ENV_PATH" : "C:/Users/NEDZAD/esp/tools/.espressif/tools/idf-python/3.8.7/Scripts"
+  },
+  "terminal.integrated.env.linux": {
+    "IDF_PYTHON_ENV_PATH" : "C:/Users/NEDZAD/esp/tools/.espressif/tools/idf-python/3.8.7/Scripts"
+  },
+  
+  "terminal.integrated.shellArgs.windows": ["/k", "C:/Users/NEDZAD/esp/esp-idf/export.bat"],
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.shellArgs.linux": ["--init-file", "C:/Users/NEDZAD/esp/esp-idf/export.sh", "-i"],
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "terminal.integrated.shellArgs.osx": ["--init-file", "C:/Users/NEDZAD/esp/esp-idf/export.sh", "-i"],
+  "files.associations": {
+    "*.md": "markdown",
+    "*.mdx": "tdx",
+    "stdio.h": "c",
+    "sstream": "c",
+    "chrono": "c",
+    "algorithm": "c",
+    "gpio.h": "c",
+    "task.h": "c",
+    "sdkconfig.h": "c",
+    "esp_log.h": "c",
+    "functional": "c"
+  }
+}
